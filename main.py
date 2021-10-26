@@ -3,9 +3,8 @@ from datetime import date
 import requests
 
 
-
-
 #example API KEY = "e2b47a49d350e13324ce145b3150ff64"
+
 
 #creating the current weather part of the app:
 
@@ -43,8 +42,3 @@ def get_current_weather(city_name, key):
 			f"The sky is {sky_description}"
 
 	return str(today) + " " + str(todays_time) + "\n " + result +"\n"
-
-
-#print(get_current_weather("London","e2b47a49d350e13324ce145b3150ff64"))
-
-
